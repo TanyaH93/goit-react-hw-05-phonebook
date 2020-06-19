@@ -1,0 +1,41 @@
+/* .enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1500ms ease-in-out transform 1500ms ease-in-out;
+  background-color: rebeccapurple;
+}
+
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+  background-color: rebeccapurple;
+}
+
+.exitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1500ms ease-in-out transform 1500ms ease-in-out;
+} */
+
+.enter {
+  transform: scale(0);
+}
+
+.enterActive {
+  transform: scale(1);
+  transition: transform 250ms ease-in-out;
+}
+
+.exit {
+  transform: scale(1);
+}
+
+.exitActive {
+  transform: scale(0);
+  transition: transform 250ms ease-in-out;
+}
